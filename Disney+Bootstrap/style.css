@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#entrar{
+    border:solid white 1px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: #2e3035;
+    height: 5vh;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 2vw;
+ 
+   
+}
+.card{
+    background-color: transparent;
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-right: 100vw;
+
+    .card-img-top{
+        width: 12vw;
+        height: 17vh;
+    }
+
+    .card-body{
+        border: none;
+
+
+         .card-title{
+            color:#02D3E5 ;
+            display: flex;
+            flex-direction: row ;
+            font-size: 25px;
+        }   
+
+        .card-text{
+            display: flex;
+            flex-direction: row ;
+            text-align: justify;
+            margin-top: 1vh;
+            color: white;
+        }
+
+        .infoEmail{
+            display: flex;
+            flex-direction: row ;
+            text-align: justify;
+            color:#95979b;
+            margin-top: 3vh; 
+        }
+
+        .form-control{
+            display: flex;
+            flex-direction: row ;
+            text-align: justify;
+            color:#d3d7df;
+            background-color: #31343E;
+            
+           
+
+          }
+            
+        #a{
+            border: none;
+        }
+
+        #a::placeholder{
+            color: white;
+        }  
+            
+        #button-addon2{
+            background-color: #02D6E8;
+            border: none;
+            color:#021424;
+            }
+
+        .link{
+            color: white;
+            display: flex;
+            flex-direction: row ;
+            text-align: justify;
+            font-size: 13px;
+        }
+
+        .patrocinios{
+            display: flex;
+            flex-direction: row ;
+            text-align: justify;
+            margin-top: 1vw;
+        }
+
+        .letrasPequenas{
+            font-size: 12px;
+            color:rgb(140, 144, 146);
+            display: flex;
+            flex-direction: row ;
+            text-align: start;
+            margin-top: 1vw;
+        }
+        }
+    }
+.clearfix{
+    background-color: #02010A;
+
+    .titulo-espn{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        padding-top: 12vw;
+    }
+    .subtitulo-espn{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        margin-right: 9vh;
+        margin-top: 1vw;
+    }
+}
+
+.esportes-geral{
+    height: 40vh;
+    padding-top:5vh;
+
+    #containers{
+       
+        height: 25vh;
+        display: flex;
+        flex-direction: row;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}
+
+#planoo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #040714;
+    padding-top: 7vh;
+   
+    .texto{
+        margin-top: 1vh;
+    }
+}
+
+#container-colunasDentro{
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    
+}
+#coluna1{
+    flex-direction: column;
+    justify-items: start;
+}
+
+.emBranco{
+    border-bottom: solid white 1px; 
+    width:100%;
+    height: 100px;
+}
+
+.esportes-comESPN{
+    display: flex;
+    color: #95979b;
+    font-size: 14px;
+    align-items:center ;
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: start;
+    height: 10vh;
+}
+
+.estreias{
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: start;
+    height: 10vh; 
+    display: flex;
+    color: #95979b;
+    font-size: 14px;
+    align-items:center ;
+}
+
+.filmes{
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: start; 
+    height: 10vh;
+    display: flex;
+    color: #95979b;
+    font-size: 12px;
+    align-items:center ;
+    text-align: start;
+    padding-top: 10px
+}
+
+.k4{
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: start; 
+    height: 10vh;
+    display: flex;
+    color: #95979b;
+    font-size: 14px;
+    align-items:center ;
+    text-align: start;
+    padding-top: 10px
+}
+
+.simultaneos{
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: start; 
+    height: 10vh;
+    display: flex;
+    color: #95979b;
+    font-size: 14px;
+    align-items:center ;
+    text-align: start;
+    padding-top: 10px
+}
+
+.down{
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: start; 
+    height: 10vh;
+    display: flex;
+    color: #95979b;
+    font-size: 14px;
+    align-items:center ;
+    text-align: start;
+    padding-top: 10px
+}
+
+.naoSei{
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: start; 
+    height: 10vh;
+    display: flex;
+    color: #95979b;
+    font-size: 14px;
+    align-items:center ;
+    text-align: start;
+    padding-top: 10px
+}
+
+
+.anuncios{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: solid white 1px; 
+    width:100%;
+    height: 100px;
+    
+}
+
+.coluna22{
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: center; 
+    height: 10vh;
+    
+}
+
+.second{
+    justify-items: start; 
+    height: 10vh;
+    display: flex;
+    color: #95979b;
+    font-size: 16px;
+    align-items:center;
+    text-align: start;
+    padding-top: 10px;
+}
+
+
+#incluiImposto{
+    width: 100%;
+    justify-items: start; 
+    height: 10vh;
+    display: flex;
+    color: #95979b;
+    font-size: 14px;
+    align-items:center ;
+    text-align: start;
+    padding-top: 10px;
+}
+
+#selecao{
+    width: 100%;
+    justify-items: start; 
+    height: 10vh;
+    display: flex;
+    color: #95979b;
+    font-size: 14px;
+    align-items:center ;
+    text-align: start;
+    padding-top: 10px;
+}
+
+#marcador{
+    width: 2vw;
+    height: 6vh;
+    padding-top: 3vh;
+    
+}
+
+#traco{
+    width: 4vw;
+    height: 6.9vh;
+    padding-top: 3vh;
+    color: rgba(182, 174, 174, 0.726);
+}
+
+.padrao{
+    border-bottom: solid white 1px; 
+    width:100%;
+    height: 100px;
+}
+
+.coluna33{
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: center; 
+    height: 10vh;
+
+  
+}
+
+#incluiImpostos{
+    width: 100%;
+    justify-items: center; 
+    height: 10vh;
+    display: flex;
+    color: #95979b;
+    font-size: 14px;
+    align-items:center ;
+    text-align: center;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.premium{
+    border-bottom: solid white 1px; 
+    width:100%;
+    height: 100px;
+}
+
+.coluna44{
+    border-bottom: solid rgba(172, 164, 164, 0.527) 1px;
+    width: 100%;
+    justify-items: center; 
+    height: 10vh
+}
+
+#botao-anuncio{
+    background-color: #136878;
+    font-stretch: ultra-expanded;
+    font-size: 15px;
+    width: 16vw;
+    height: 6vh;
+}
+
+.padrao{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: solid white 1px; 
+    width:100%;
+    height: 100px;
+
+    #botao-padrao{
+        background-color: #136878;
+        font-stretch: ultra-expanded;
+        font-size: 15px;
+        width: 16vw;
+        height: 6vh;
+    }
+}
+
+.premium{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: solid white 1px; 
+    width:100%;
+    height: 100px;
+    
+    #botao-premium{
+        background-color: #02B6C5;
+        color: #020105be;
+        font-stretch: ultra-expanded;
+        font-size: 15px;
+        width: 16vw;
+        height: 6vh;
+    }
+}
+
+.container-gridG{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+
+.normasdoPlano{
+    text-align: start;
+    color: #95979b;
+    font-size: 9px;
+    margin: 2vh;
+}
+
+
+#botaoUm{
+    background-color:#13151D;
+    color: white;
+    width: 1018.63px;
+}
+
+#botaoDois{
+    margin-top: 5vh;
+    background-color:#13151D;
+    color: white;
+    width: 1018.63px;
+}
+
+#botaoTres{
+    background-color:#13151D;
+    color: white;
+    width: 1018.63px;
+    margin-top: 5vh;
+}
+
+.perguntasFrequentes{
+    padding-top: 2vh;
+    background-color:#040714;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
+
+#flush-collapseOne{
+    width:1018.63px;
+}
+
+#flush-collapseTwo{
+    width:1018.63px;
+}
+
+#flush-collapseThree{
+    width:1018.63px;
+}
